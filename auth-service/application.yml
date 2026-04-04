@@ -1,0 +1,8 @@
+# ============================================================
+# Config Repository: auth-service/application.yml
+# ============================================================
+
+pms:
+  jwt:
+    access-token-expiry-minutes: 15
+    refresh-token-expiry-days: 7

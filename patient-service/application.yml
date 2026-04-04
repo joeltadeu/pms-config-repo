@@ -1,0 +1,9 @@
+# ============================================================
+# Config Repository: patient-service/application.yml
+# ============================================================
+
+# Add patient-service specific configuration here as needed.
+# Example:
+# pms:
+#   patient:
+#     max-results-per-page: 50

@@ -1,0 +1,9 @@
+# ============================================================
+# Config Repository: doctor-service/application.yml
+# ============================================================
+
+# Add doctor-service specific configuration here as needed.
+# Example:
+# pms:
+#   doctor:
+#     max-results-per-page: 50

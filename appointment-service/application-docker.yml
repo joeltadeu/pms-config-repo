@@ -1,0 +1,10 @@
+# ============================================================
+# Config Repository: appointment-service/application-docker.yml
+#
+# Overrides applied when SPRING_PROFILES_ACTIVE=docker
+# ============================================================
+
+pms:
+  appointment:
+    # Production environments may use a shorter or longer slot.
+    duration-minutes: 60

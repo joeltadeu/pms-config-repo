@@ -1,0 +1,17 @@
+# ============================================================
+# Config Repository: appointment-service/application.yml
+#
+# This file is served by infra-config-server to the
+# Appointment Service for the default (non-profiled) case.
+#
+# Per-environment overrides go in:
+#   appointment-service/application-docker.yml
+#   appointment-service/application-local.yml
+# ============================================================
+
+pms:
+  appointment:
+    # Duration of every appointment in minutes.
+    # Change this value here and trigger /actuator/refresh to
+    # apply the new value without redeploying the service.
+    duration-minutes: 60
