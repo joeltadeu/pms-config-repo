@@ -7,4 +7,4 @@
 pms:
   appointment:
     # Production environments may use a shorter or longer slot.
-    duration-minutes: 45
+    duration-minutes: 60
