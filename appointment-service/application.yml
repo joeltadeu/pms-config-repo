@@ -14,4 +14,4 @@ pms:
     # Duration of every appointment in minutes.
     # Change this value here and trigger /actuator/refresh to
     # apply the new value without redeploying the service.
-    duration-minutes: 45
+    duration-minutes: 60
